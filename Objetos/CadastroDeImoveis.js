@@ -9,8 +9,8 @@ Escreva um programa que funcione como um cadastro de imóveis e atenda aos segui
     - Se possui garagem.
 */
 
-let opt = ""
 let imoveis = []
+let opt = ""
 while (opt !== "3"){
     opt = prompt(
         "---------------------------\n" +
@@ -33,8 +33,7 @@ while (opt !== "3"){
             let temp = imovel.garagem ? "Sim" : "Não"
             const save = confirm(
                 "Salvar este imóvel?" +
-                "\n" +
-                "\nProprietário: " + imovel.prop +
+                "\n\nProprietário: " + imovel.prop +
                 "\nQuartos: " + imovel.quartos +
                 "\nBanheiros: " + imovel.banheiros +
                 "\nPossui garagem: " + temp
