@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armazenamento no Navegador</title>
+    <script src="Armazenamento.js" defer></script>
+</head>
+<body>
+    <h1>Recursos de Armazenamento do Navegador</h1>
+    <hr>
+
+    <h2>Session Storage</h2>
+    <p>Expira quando a aba é fechada.</p>
+    <label for="session">Digite algo:</label>
+    <input type="text" id="session">
+    <button id="saveSession">Guardar</button>
+    <button id="readSession">Ler</button>
+
+    <br><br>
+    
+    <h2>Local Storage</h2>
+    <p>Expira somente ao ser limpa.</p>
+    <label for="local">Digite algo:</label>
+    <input type="text" id="local">
+    <button id="saveLocal">Guardar</button>
+    <button id="readLocal">Ler</button>
+    
+    <br><br>
+
+    <h2>Cookies</h2>
+    <p>Pode possuir data de expiração. Nesse caso, a partir de 2 dias após criado.</p>
+    <label for="cookie">Digite algo:</label>
+    <input type="text" id="cookie">
+    <button id="saveCookie">Guardar</button>
+</body>
+</html>
